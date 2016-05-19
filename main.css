@@ -1,0 +1,70 @@
+/* Copy and paste these styles into the Survey Gizmo CSS editor.
+*  In the SG wysiwyg style editor, remember to set the logo as testpilot.png */
+
+.sg-header {
+  background: #0065b8;
+  padding: 20px 0;
+}
+
+.sg-header-image {
+  min-width: 300px;
+  width: 300px;
+}
+
+.sg-wrapper {
+  background: #fafafa;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.sg-content {
+  background: #fafafa;
+  border-radius: 0 !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .2);
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.sg-body {
+  background: #0065b8;
+}
+
+.sg-button {
+  border: 1px solid transparent;
+}
+
+.sg-back-button {
+  background: #e7e7e7;
+  border-color: #ccc;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+.sg-back-button:hover {
+  background: #ccc; 
+  border-color: #ccc;
+}
+
+.sg-back-button:active {
+  background: #bbb;
+  border-color: #bbb;
+}
+
+.sg-next-button,
+.sg-submit-button {
+  background-color: #0996f8;
+  border-color: #0675d3;
+  font-size: 20px !important;
+}
+
+.sg-next-button:hover,
+.sg-submit-button:hover {
+  background-color: #0675d3;
+  border-color: #0675d3;
+}
+
+.sg-next-button:active,
+.sg-submit-button:active {
+  background-color: #0568ba;
+  border-color: #0568ba;
+}
